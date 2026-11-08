@@ -57,7 +57,7 @@
     const box = $('production-evidence-content'); box.replaceChildren();
     if (!c) { box.append(el('p', '未找到此片段的冻结记录。')); return; }
     $('production-evidence-title').textContent = c.branch + ' · ' + c.id + ' 的真实输入';
-    const meta = ['Seedance 2.5', c.duration + '秒', c.resolution, c.aspect, c.mode, c.generateAudio ? '视频原生声音' : '该原片未生成声音'];
+    const audioText = c.generateAudio === false ? '该原片未生成声音，完整片声音路径见报告' : c.generateAudio === true ? '视频原生声音' : c.technical && c.technical.audioStreams > 0 ? '实际原片含音轨，请求未显式记录声音开关' : '声音开关未记录'; const meta = ['Seedance 2.5', c.duration + '秒', c.resolution, c.aspect, c.mode, audioText];
     box.append(el('p', meta.filter(Boolean).join(' · '), 'caption'));
     const p = promptBox(c.prompt, '查看本段实际提交的视频提示词'); p.open = true; box.append(p);
     const refs = c.references || [];
@@ -71,7 +71,7 @@
     const branch = $('asset-route-filter').value;
     const query = $('asset-search').value.trim().toLowerCase();
     const list = dataset.assets.filter(a => (!branch || a.branch === branch) && (!query || [a.id,a.name,a.prompt].filter(Boolean).join(' ').toLowerCase().includes(query)));
-    $('asset-result-count').textContent = '当前 ' + list.length + ' / ' + dataset.assets.length + ' 张库存图片；包括历史、补充与修订版本。';
+    $('asset-result-count').textContent = '当前 ' + list.length + ' / ' + dataset.assets.length + ' 张仿真人图片；包括补充与修订版本。';
     const grid = $('all-assets-grid'); grid.replaceChildren(); list.forEach(a => grid.append(assetCard(a, false)));
   }
   window.renderMasterProductionEvidence = routeKey => {
@@ -86,7 +86,7 @@
     box.append(nav);
   };
   const embedded = document.getElementById('production-evidence-json');
-  const ready = embedded ? Promise.resolve(JSON.parse(embedded.textContent)) : fetch('evidence-data.json').then(r => { if (!r.ok) throw Error('HTTP ' + r.status); return r.json(); });
+  const ready = embedded ? Promise.resolve(JSON.parse(embedded.textContent)) : fetch('evidence-data.json?v=20261108-real-only').then(r => { if (!r.ok) throw Error('HTTP ' + r.status); return r.json(); });
   ready.then(data => {
     dataset = data;
     $('evidence-load-status').textContent = '已载入 ' + data.clips.length + ' 段真实视频提示词与 ' + data.assets.length + ' 张库存资产记录。';
