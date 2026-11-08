@@ -86,7 +86,7 @@
     box.append(nav);
   };
   const embedded = document.getElementById('production-evidence-json');
-  const ready = embedded ? Promise.resolve(JSON.parse(embedded.textContent)) : fetch('evidence-data.json?v=20261108-real-only').then(r => { if (!r.ok) throw Error('HTTP ' + r.status); return r.json(); });
+  const ready = embedded ? Promise.resolve(JSON.parse(embedded.textContent)) : fetch('evidence-data.json?v=20261108-quality-review').then(r => { if (!r.ok) throw Error('HTTP ' + r.status); return r.json(); });
   ready.then(data => {
     dataset = data;
     $('evidence-load-status').textContent = '已载入 ' + data.clips.length + ' 段真实视频提示词与 ' + data.assets.length + ' 张库存资产记录。';

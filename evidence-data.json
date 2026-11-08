@@ -3656,7 +3656,7 @@
       "videoUrl": "https://dz-ailaboss.dzkjm.cn/canvas/video_1794122230400_95d9320d.mp4",
       "thumbnailUrl": "https://dz-ailaboss.dzkjm.cn/video_thumbnails/80dc0ea32ecd4282ba1c0a12d46d96f7.jpg",
       "videoStatus": "SUCCESS",
-      "note": "3.781秒已抬手敬礼，020又从全体敬礼关系继续。动作职责有重叠，是否形成明显重复需原速连看。",
+      "note": "提示要求结束时手仍未触额，但3.781与4.922秒已敬礼；020的0.1秒又从手臂下垂起步。计划的发令—执行分工未落实，动作状态没有可靠接续。",
       "noteSource": "existing_evidence_index",
       "promptStatus": "actual_normalized_prompt_verbatim",
       "promptSha256": "5a9b7bbdae72d4b56ce0e5ef22e9d37e122cbbbb7ab4432baa63edf320e397d9",
@@ -3678,6 +3678,10 @@
         "audioStreams": 1,
         "sha256": "28000e1ad4a2ede95b303e783e060798d00e44508d4315bf76574463d83103bf",
         "decodePassed": true
+      },
+      "qualityReviewRevision": {
+        "date": "2026-11-08",
+        "basis": "复核原始输入图、冻结提示词、绑定顺序和原片实际静帧；非连续听审"
       }
     },
     {
@@ -4753,7 +4757,7 @@
       "videoUrl": "https://dz-ailaboss.dzkjm.cn/canvas/video_1794124528424_f3d16856.mp4",
       "thumbnailUrl": "https://dz-ailaboss.dzkjm.cn/video_thumbnails/2cdc5e0b0ceb4afb9d18a483e1c44d38.jpg",
       "videoStatus": "SUCCESS",
-      "note": "儿童照片切换在屏内可见；前景侧脸年龄/身份与老战友设定存在需复核的差异。该镜是独立起点，不能借前镜身份作保证。",
+      "note": "实际绑定的R1图只有无人屏幕，原片0.1秒却出现计划外现场年轻男子；这是本次视频新增现场人物，不能只归为构图风格差异。",
       "noteSource": "existing_evidence_index",
       "promptStatus": "actual_normalized_prompt_verbatim",
       "promptSha256": "e086205a1c6529dd66d5b731390c1ca880d42b36bf05291c9604c566372654cb",
@@ -4775,6 +4779,10 @@
         "audioStreams": 1,
         "sha256": "3caa83b3c583d481e175524fbba1791ea72a1ba2ff513df3f56330f22a0b8c5b",
         "decodePassed": true
+      },
+      "qualityReviewRevision": {
+        "date": "2026-11-08",
+        "basis": "复核原始输入图、冻结提示词、绑定顺序和原片实际静帧；非连续听审"
       }
     },
     {
@@ -4850,7 +4858,7 @@
       "videoUrl": "https://dz-ailaboss.dzkjm.cn/canvas/video_1794124539224_d3320bbf.mp4",
       "thumbnailUrl": "https://dz-ailaboss.dzkjm.cn/video_thumbnails/3bcaa54d63294993b40458097a3b3fa3.jpg",
       "videoStatus": "SUCCESS",
-      "note": null,
+      "note": "R1输入图只含照片屏幕，原片0.1秒仍出现现场人物侧面，偏离本镜屏幕轮播近景任务。",
       "noteSource": null,
       "promptStatus": "actual_normalized_prompt_verbatim",
       "promptSha256": "51a8266d0bccc58db46de2b435ff68ec91fb727208d6652bab69819c75c85f72",
@@ -4871,6 +4879,10 @@
         "audioStreams": 1,
         "sha256": "914e5c62afeb85f312adde03f76ed08ca7cf972c38d7d8e75ed2cd2175e833a1",
         "decodePassed": true
+      },
+      "qualityReviewRevision": {
+        "date": "2026-11-08",
+        "basis": "复核原始输入图、冻结提示词、绑定顺序和原片实际静帧；非连续听审"
       }
     },
     {
@@ -8619,7 +8631,7 @@
       "videoUrl": "https://dz-ailaboss.dzkjm.cn/canvas/video_1794132958939_285b72e4.mp4",
       "thumbnailUrl": "https://dz-ailaboss.dzkjm.cn/video_thumbnails/55359a0d191a48a8b75bfc5db3efc177.jpg",
       "videoStatus": "SUCCESS",
-      "note": "抽帧中叶青山坐在桌边，而该段计划仍为站立讲述；这是姿态执行偏差。",
+      "note": "实际样本中叶青山坐在桌边；投喂排除角色板站姿，动作段未重申站立，结尾又笼统写众人坐着。上游站立计划没有落实到最终结果。",
       "noteSource": "existing_evidence_index",
       "promptStatus": "actual_normalized_prompt_verbatim",
       "promptSha256": "ded01fbd9846d43f50b782ba9f805c48a7b6ab5e9274d8a6829f97fbe8c344a0",
@@ -8642,6 +8654,10 @@
         "audioStreams": 1,
         "sha256": "b37d06da7030c27f78e1c5c910441132b282808e78553bf1abe6eee4c90bdc3d",
         "decodePassed": true
+      },
+      "qualityReviewRevision": {
+        "date": "2026-11-08",
+        "basis": "复核原始输入图、冻结提示词、绑定顺序和原片实际静帧；非连续听审"
       }
     },
     {
@@ -8940,7 +8956,7 @@
       "videoUrl": "https://dz-ailaboss.dzkjm.cn/canvas/video_1794132936035_591edf6b.mp4",
       "thumbnailUrl": "https://dz-ailaboss.dzkjm.cn/video_thumbnails/2ddec1655c1b42148425579429756cc7.jpg",
       "videoStatus": "SUCCESS",
-      "note": "屏幕的两组儿童照片按序可见；5.01至15.031秒近侧座椅显出大轮，偏离普通会议椅设计。",
+      "note": "10.021秒近侧听者的座椅出现轮椅结构。本段未绑定轮椅身份图，却保留无关金属轮椅文字模板；模板污染是输入风险，不能认定为唯一模型成因。",
       "noteSource": "existing_evidence_index",
       "promptStatus": "actual_normalized_prompt_verbatim",
       "promptSha256": "453155c2688381f1e4d556a8bf0364229fe7d185e40bd3ef0e8d851579c2832f",
@@ -8963,6 +8979,10 @@
         "audioStreams": 1,
         "sha256": "3fc8bc7dbb9f43edc0d32016b3b58ecfbd3d33acf4ba963c0724b42e38e635bd",
         "decodePassed": true
+      },
+      "qualityReviewRevision": {
+        "date": "2026-11-08",
+        "basis": "复核原始输入图、冻结提示词、绑定顺序和原片实际静帧；非连续听审"
       }
     },
     {
@@ -16663,5 +16683,22 @@
     "imageModel": "gpt-image-2",
     "videoModel": "seedance-2.5",
     "assembly": "成功片保留，按剧情原序全段直拼，无额外艺术剪辑"
+  },
+  "qualityReview": {
+    "scope": "本次真实成片",
+    "currentDeliveryAssessment": "DramaSkills与yyyskills当前方案不推荐无人干预直交；四路均未获可直接发布验收",
+    "confirmedVisualIssues": [
+      "DramaSkills010计划外现场年轻男子",
+      "DramaSkills019敬礼提前与020动作起点重置",
+      "yyy003讲述者坐姿",
+      "yyy005错误轮椅结构",
+      "yyy009到010坐站回退",
+      "yyy014盖章落在封面"
+    ],
+    "unverified": [
+      "连续视听的整体表演与声音质量",
+      "ASR疑似额外台词的人工听审"
+    ],
+    "newGeneration": false
   }
 }
