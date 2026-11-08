@@ -1,0 +1,42 @@
+[
+  {
+    "route": "laoli",
+    "name": "漫剧老李",
+    "file": "videos/laoli.mp4",
+    "bytes": 5818625,
+    "sha256": "d0ab6475db9628c37297583a21421e9edeb629cd595d3680383572d42541f45c",
+    "duration": 224.618,
+    "width": 480,
+    "height": 854
+  },
+  {
+    "route": "drama",
+    "name": "DramaSkills",
+    "file": "videos/drama.mp4",
+    "bytes": 5714480,
+    "sha256": "20fbd4d19659d9b94c7443f747f062538bfdf6db159bb2759343f883d223ba17",
+    "duration": 343.27,
+    "width": 480,
+    "height": 854
+  },
+  {
+    "route": "mrli",
+    "name": "李先生",
+    "file": "videos/mrli.mp4",
+    "bytes": 6112230,
+    "sha256": "8849aa3d3f65c7d434cc03191d799e9d649d5a60c9efffe3896de376d538a3f8",
+    "duration": 298.016,
+    "width": 854,
+    "height": 480
+  },
+  {
+    "route": "yyy",
+    "name": "yyyskills",
+    "file": "videos/yyy.mp4",
+    "bytes": 6004458,
+    "sha256": "b6b1e0d386d81f6b51bfbc399f9d6ab3ccd584d84edc87e76888f72863b495cd",
+    "duration": 220.948,
+    "width": 480,
+    "height": 854
+  }
+]
